@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+p{
+    margin: 1rem 0;
+}
+
+img{
+    width: 100%;
+}
+
+/* header */
+
+
+
+
+
+.navbar{
+    display: flex;
+    background-color: #4d4d4d;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0 2rem;
+    opacity: 0.8;
+    color: white;
+    
+    
+}
+.navbar ul{
+    display: flex;
+
+  
+  
+}
+
+
+
+.navbar a{
+    color: white;
+    margin: 0 1.1rem;
+    padding: 1.2rem;
+    font-size: 2rem;
+    
+    
+}
+
+.name-hotel{
+    color: #e6b800;
+}
+
+.navbar a:hover{
+    border-bottom: 2px solid #e6b800 ;
+    ;
+}
+
+
+.btn{
+   background-color: #4d4dff;
+   color: white;
+   padding: 0.9rem;
+   border: none;
+   border-radius: 5px;
+   
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.delux-write{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ height: 100%;
+ color: white;
+ font-size: 1.8rem;
+ 
+  
+
+}
+
+.main-header{
+    background-image: url("hotel-walpapaer4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+.main-header::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0 , 0,0.6);
+    
+}
+
+.main-header *{
+    z-index: 5;
+}
+   /* İcon Tablosu */
+.icon-row{
+    margin: 3rem;
+    
+}
+.icon-row i:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.col-4{
+    display: flex;
+    
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    
+}
+.icon-col-4 i{
+    color: #e6b800;
+    font-size: 5rem;
+}
+ /* Customer Service 1 */
+.customer-service-row{
+    display: flex;
+    
+    
+   
+
+}
+.btn-2{
+    border: 5px solid black;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+   width: 11rem;
+   padding-left: 0.5rem;
+   margin: 1rem;
+   height: 4rem;
+}
+
+   .btn-2:hover{
+       color: black;
+       background-color: white;
+   }
+   
+   .col-2 img{
+       width: 100%;
+       height: 100%;
+       
+   }
+
+
+   .col-2{  
+      width: 50%;
+      background-color: #bfbfbf;
+      cursor: pointer;
+      
+   }
+
+   .col-2-write{
+       width: 100%;
+       height: 100%;
+       flex-direction: column;
+       display: flex;
+       justify-content: center;
+       padding: 2rem;
+       font-size: 2rem;
+       align-items: flex-start;
+       
+     
+    }
+
+     /* Gallery */
+   .gallery-write{
+       text-align: center;
+       font-size: 2rem;
+   }
+    
+    .picture-all{
+        display: flex;
+        flex-wrap: wrap;
+       margin-left: 1.5rem;
+       
+       
+    }
+    .pictures{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+       margin: 0.4rem;
+        width: 24%;
+    }    
+     .pictures img{
+         width: 100%;
+         margin: 0.4rem;
+         height: 250px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     }   
+    
+      .pictures img:hover{
+         opacity: 0.8;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+      }
+
+      /* Customer Sevice 2  */
+
+    .customer-service-2{
+        margin-top: 9rem;
+    }
+    .customer-service-row-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-2-2{
+        width: 50%;
+        background-color:#4d4d4d ;
+        color: white;
+    }
+    .col-2-2-write{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 2rem;
+        padding: 2.5rem;
+        margin-top: 9rem;
+       
+    }
+
+     .col-2-2 img{
+         height: 100%;
+     }
+
+    .btn-3{
+        width: 10rem;
+        padding-left: 0.2rem;
+        margin-top: 1.5rem;
+        border: 1px solid white;
+        border-radius: 1rem;
+        color: black;
+        height: 4rem;
+
+    }
+    .btn-3:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+     
+    /* Rooms */
+
+    .rooms{
+        margin-top: 6rem;
+    }
+    
+    .top-write{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+
+    }
+    
+     
+    .rooms-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+
+    }
+    .room{
+        width: 28%;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        
+    }
+
+    .room:hover{
+        position: relative;
+        top: -10px;
+        transition: all 3s ease;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        cursor: pointer;
+    }
+
+    .room img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .room-write{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #e6b800;
+        color: white;
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 2rem;
+        
+    }
+        
+    /* Teams */
+
+    .teams{
+        margin-top: 7rem;
+    }
+    
+    .teams-top-write{
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+   .teams-row{
+       display:flex;
+       flex-wrap:wrap;
+       justify-content: center;
+       
+   }
+   .team{
+       width: 30%;
+       padding: 2rem;
+       
+       
+   }
+    
+   .team img{
+       width: 100%;
+       height: 250px;
+       border-radius: 50%;
+       box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;}
+
+   .team img:hover{
+       transform: scale(1.2);
+       transition: all 1s ease;
+       box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+       cursor: pointer;
+   }
+   
+   .team-write{
+       text-align: center;
+       font-size: 2rem;
+       padding: 1rem;
+   }
+    
+     /* Contact */
+
+   .contact-row{
+       display: flex;
+       flex-wrap: wrap;
+
+   }
+
+
+   .contact-write{
+       text-align: center;
+       font-size: 3rem;
+   }
+
+   .col-2-3{
+       width: 50%;
+       background-color: #f5f5f5;
+   }
+   .col-2-3 img{
+       height: 100%;
+   }
+    
+    .col-2-3-2{
+     display: flex;
+     flex-direction: column;
+
+  
+
+    }
+    .col-2-3-item{
+        display: flex;
+        flex-direction: column;
+        font-size: 2.3rem;
+        padding: 1.1rem;
+        width: 100%;
+    }
+
+    .col-2-3-item {
+       height: 35px;
+       border: 1px solid #f5f5f5;
+    }
+  
+     .col-2-3-button{
+      background-color: #4d4dff; 
+      color: white;
+      border-radius: 0.5rem;  
+      width: 10rem;
+      height: 3.3rem;
+      margin: 1.7rem;
+     }
+
+     .col-2-3-button:hover{
+         background-color: white;
+         color: #4d4dff;
+         cursor: pointer;
+     }
+    
+       /* Footer */
+
+     .footer{
+         margin-top: 6rem;
+         margin-bottom: 7rem;
+
+     }
+
+     .footer-items{
+         display: flex;
+         flex-direction: column;
+        
+
+     }
+
+     .footer-item{
+         text-align: center;
+     }
+    
+    .footer-item i{
+        color: rgb(0, 81, 255);
+        font-size: 3rem;
+        padding: 0.4rem;
+        
+    }
+    .footer-item i:hover{
+        color: rgb(241, 7, 7);
+        cursor: pointer;
+    }
+
+    @media(max-width: 700px){
+        
+        .navbar{
+            flex-direction: column;
+            height: 105px;
+            padding: 21px;
+        }
+
+        .col-4{
+            flex-wrap: wrap;
+        }
+
+        .customer-service-row{
+     
+          flex-direction: column;
+          
+    }
+
+        .col-2{
+        width: 100%;
+         }
+
+        .pictures{
+            width: 48%;
+        }
+       
+        .customer-service-row-2{
+            flex-direction: column;
+        }
+        .col-2-2{
+            width: 100%;
+        }
+         .rooms-row{
+             flex-direction: column;
+             align-items: center;
+         }
+         .room{
+             width: 75%;
+         }
+
+         .teams-row{
+             flex-direction: column;
+             align-items: center;
+         }
+         .team{
+             width: 75%;
+         }
+
+         .contact-row{
+             flex-direction: column;
+             align-items: center;
+         }
+         .col-2-3{
+             width: 100%;
+         }
+
+         .pictures{
+             width: 47%;
+             
+         }
+         .gallery-row{
+             margin-right: 2.1rem;
+         }
+         
